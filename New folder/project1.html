@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dishant Detroja — Profile & Contact</title>
+  <meta name="description" content="Drishti Kapoor — front-end developer focused on accessible, semantic HTML5. Contact for projects.">
+  <meta name="author" content="Drishti Kapoor">
+  <style>
+    html,body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#111}
+    .wrap{max-width:800px;margin:20px auto;padding:16px}
+    header,main,footer{background:#fff;padding:12px;border-radius:8px;margin-bottom:12px}
+    nav a{margin-right:10px}
+    .profile{display:flex;gap:12px;align-items:center}
+    img{width:110px;height:110px;border-radius:8px;object-fit:cover}
+    label{display:block;margin-top:8px}
+    input,textarea,select,button{width:100%;padding:8px;margin-top:4px;border:1px solid #ccc;border-radius:6px}
+    @media (max-width:600px){.profile{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a href="#main" style="position:absolute;left:-9999px">Skip to content</a>
+      
+      <h1>Dishant Detroja</h1>
+      
+      <p>fullstack developer · Accessibility Student</p>
+      
+      <!-- navigation -->
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="about">
+        <div class="profile">
+          
+          <div>
+            <h2>About</h2>
+            <p>Hello — I’m Dishant Detroja, a full-Stack developer who builds accessible, semantic websites. I focus on clean HTML, responsive layout, and usable forms.</p>
+            <p><strong>Location:</strong> Ahmedabad · <strong>Available for:</strong> freelance & audits</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Selected Projects</h2>
+        <ul>
+          <li>Accessibility-first e-commerce redesign</li>
+          <li>Lightweight documentation site with semantic components</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post" novalidate>
+          <label for="name">Full name *</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Email *</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+        <p style="font-size:0.9rem;margin-top:8px">Or email: <a href="detroja:dishant@example.com">dishant@example.com</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <time datetime="2025-12-05">2025</time> Dishant — Built with semantic HTML.</p>
+    </footer>
+  </div>
+</body>
+</html>
