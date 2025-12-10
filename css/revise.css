@@ -1,0 +1,39 @@
+h4{
+    height:180px;
+    width:300px;
+    color:brown;
+    background-color: lightgray;
+    border-style: solid;
+}
+.box{
+    height:200px;
+    width:300px;
+    color:floralwhite;
+    background-color:darksalmon;
+    font-size:20px;
+    border-style:solid;
+    border-color: black;
+    border-width: 3px;
+
+}
+#id{
+    height:100px ;
+    width: 100px;
+    color:aliceblue;
+    background-color: teal;
+    border-style: solid;
+    border-color: darkorange;
+    border-width: 3px;
+
+}
+.b1{
+    height:350px;
+    width:400px;
+    color:darkred;
+    background-color:cornflowerblue;
+
+
+}
+
+
+
