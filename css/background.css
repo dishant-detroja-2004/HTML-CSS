@@ -1,0 +1,29 @@
+.box{
+    height: 300px;
+    width:400px;
+    border: solid;
+    /* background-image: url('bird.jpg');
+
+    background-repeat:  no-repeat;
+
+    background-size:auto; */
+
+    /* background-position: center; */
+    background-position:center;
+    
+/* border box , paddingbox, content box */
+    background-clip:border-box;
+
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 43%);
+    word-spacing: 5px;
+    letter-spacing: 6px;
+    font-size: 20px;
+    text-indent: 50px;
+    text-transform: lowercase;
+    text-align: left;
+}
+.fa-truck{
+        color:blueviolet;
+        font-size:50px;
+}
