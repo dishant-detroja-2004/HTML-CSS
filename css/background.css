@@ -16,8 +16,12 @@
 
     background: #3F5EFB;
     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 43%);
-    word-spacing: 5px;
-    letter-spacing: 6px;
+    /* word-spacing: 5px;
+    letter-spacing: 6px; */
+
+    /* arial sans-serif serif monospace cursive fantasy  */
+    font-family:monospace;
+    
     font-size: 20px;
     text-indent: 50px;
     text-transform: lowercase;

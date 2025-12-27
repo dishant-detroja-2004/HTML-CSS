@@ -1,0 +1,13 @@
+.box{
+    height: 100px;
+    width:150px;
+    background-color:brown;
+    border: 3px solid black;
+    /* block inline */
+    display:inline-block;
+
+    visibility:visible;
+}
+.b1{
+    visibility:hidden;
+}
