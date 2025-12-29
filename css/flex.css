@@ -1,0 +1,47 @@
+.main{
+    height: 500px;
+    width: 400px;
+    border: 2px solid brown;
+    display: flex;
+    /* row row-reverse column column-reverse */
+    /* flex-direction: row-reverse; */
+
+    /* wrap nowrap wrap-reverse */
+    flex-wrap:  nowrap;
+
+    /* row column */
+    /* flex-flow:row; */
+
+    /* flexstart flexend space-between space-evenly center space around */
+    /* justify-content:space-evenly; */
+
+    /* flex-start,flex-end,center.stretch,baseline */
+    /* align-items:baseline; */
+    
+    /* flex start,flex-end,center,space-between,space-around */
+    /* align-content:space-between; */
+
+    
+    
+} 
+
+.box{
+    height: 50px;
+    width: 60px;
+    border: 3px solid wheat;
+    background-color:white;
+}
+.b1{
+    order:3;
+    align-self: center;
+}
+.b2{
+    order:5;
+    flex-grow:5;
+}
+.b3{
+    order:7;
+}
+.b4{
+    flex-shrink: 6;
+}
