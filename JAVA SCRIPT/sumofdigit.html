@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number=143
+        let count=0
+        //count no of digits
+        while(number>0) //143>0 14>0 1>0 
+        { 
+            let r=number%10 //143%10=3
+            number=Math.floor(number/10);
+            count++
+        }
+        document.write('<br> number of digits are'+count)
+    </script>
+</body>
+</html>
