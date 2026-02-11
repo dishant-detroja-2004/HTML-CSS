@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arry = [10,20,30,40]
+        for(let i=0;i<4;i++)
+    {
+        document.write('<br>'+arry[i])
+    }
+
+    arry.push(50)
+    arry.push(60)
+    arry.push(70)
+    document.write('<br>'+arry)
+
+    arry.pop()
+    document.write('<br>'+arry)
+
+    arry.unshift(78)
+    arry.unshift(8)
+    arry.unshift(98)
+    document.write('<br>'+arry)
+
+    arry.shift()
+    document.write('<br>'+arry)
+
+    //we can get elements and remove from postionwise original value can be change like add or remove
+    arry.splice(3,0,45,46,47)
+    document.write('<br>'+arry)
+    
+    
+    arry.splice(4,2)
+    document.write('<br>'+arry)
+
+    // we can get elemnts from position wise and orginal value  cant be change
+
+    let ans =arry.slice(3)
+    document.write('<br>'+ans)
+
+    ans = arry.slice(3,6)
+    document.write('<br>'+ans)
+
+    ans=array.slice(-5)
+    document.write('<br>'+ans)
+
+    ans=arry.slice(-7,-1)
+    document.write('<br>'+ans)
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr ={
+            "id":11,
+            "name":'tst',
+            "salary" : 33000,
+            "age" : 27,
+            "dispdata": function(){
+                return this.name+  + this.age
+            },
+            get getsalary(){
+                return this.salary
+            },
+            set setSalary(n){
+                this.salary=n
+            },
+    }
+    arr.lastname="xyz"
+        // document.write('<br>id is '+arry.id)
+        // document.write('<br> name is '+arry['name'])
+        // for(var x in arry){
+        //     document.write(x +'is'+arry[x]+'<br>')
+        // }
+        document.write('<br>current salary is '+ arr.getsalary)
+        arr.setSalary=70000
+        document.write('<br>updated salary is '+arr.salary)        
+
+        
+    </script>
+</body>
+</html>

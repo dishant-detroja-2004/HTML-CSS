@@ -10,21 +10,21 @@
         let no=407
         let sum=0
         let n=no
-        while(no>0)
-            {
-                let r=no%10
-                sum=sum+(r**3)
-                no=Math.floor(no/10)
-            }
-            document.write('<br> sum is '+ sum)
-        if(n==sum)
-            {
-                document.write("armstrong number")
-            }
-        else
-            {
-                document.write(" not armstrong number")
-            }
+       function armstrong(){
+        while(n>0){
+            let r=n%10
+            sum=sum+(r*r*r)
+            n=Math.floor(n/10)
+        }
+        if(sum==no){
+            console.log("armstrong no")
+        }
+        else{
+            console.log("not armstrong no")
+        }
+       }
+       armstrong(193);
+      
     </script>
 </body>
 </html>
