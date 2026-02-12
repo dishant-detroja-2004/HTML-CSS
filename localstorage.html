@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>local storage</h2>
+    <input type="text" id="abc" value="test" name="abc">
+    <div id="txt"></div>
+    <button onclick="rmage()">remove age</button>
+    <button onclick="rmall()">remove all</button>
+
+    <script>
+        localStorage.setItem("name","nakali")
+        localStorage.setItem("age",27)
+        localStorage.setItem("salary",150)
+
+        let n= localStorage.getItem("name")
+        let a = localStorage.getItem("age")
+       
+
+        document.getElementById('txt').innerHTML="<b>name is "+n+"</b>"
+
+        a=document.getElementById('abc').value
+        document.write('<br>value is '+a)
+        const rmage=()=>{
+            localStorage.removeItem("age")
+        }
+        const rmall=()=>{
+            localStorage.clear()
+        }
+
+        let emp={
+            name:"meet",
+            age:25,
+            salary:200
+
+        }
+        localStorage.setItem("empdata",JSON.stringify(emp))
+        let dd=JSON.parse(localStorage.getItem("empdata"))
+        console.log(dd);
+        
+    </script>
+</body>
+</html>
